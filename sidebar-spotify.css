@@ -1,0 +1,173 @@
+.top{
+    background-color: var(--bgsidebar-right);
+    top: 10px;
+    left: 10px;
+    border-radius: 8px;
+    width: 350px;
+    margin-bottom: 10px;
+    position: fixed;
+}
+.top-info{
+    color: rgb(149, 149, 149);
+    display: flex;
+    align-items: center;
+    padding: 10px;  
+}
+
+.i-hover:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.top-info > div{
+    margin-left: 20px;
+    font-size: 13px;
+    margin-top: 4px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.bottom{
+    width: 350px;
+    top: 110px;
+    left: 10px;
+    background-color: var(--bgsidebar-right);
+    border-radius: 8px;
+    position: fixed;
+}
+
+.bottom-info{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.library{
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px;
+    align-items: center;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.panah{
+    display: flex;
+    margin-right: 30px;
+    width: 40px;
+    color: gray;
+    justify-content: space-between;
+}
+.panah > div{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.daftar{
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.daftar > button{
+    border: none;
+    border-radius: 12px;
+    color: rgb(222, 222, 222);
+    background-color: rgb(62, 62, 62);
+    font-size: 12px;
+    padding: 6px 10px;
+}
+
+.daftar> button:hover{
+    background-color:rgb(71, 71, 71) ;
+    cursor: pointer;
+}
+
+.search-album{
+    display: flex;
+    width: 340px;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+}
+
+.right-search-album{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.i-hover{
+    font-weight: bold;
+}
+
+.panah-lebihbesar:hover{
+    color: white;
+    cursor: pointer;
+}
+.plus:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.search-icon{
+    margin-left: 12px;
+    margin-top: 8px;
+    margin-bottom: 10px;   ;
+}
+
+.right-search-album:hover,.search-icon:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+.list-album{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 8px;
+    transition: background-color 0.15s;
+}
+
+.album-photo{
+    width: 50px;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.album-info{
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 22px;
+}
+
+.album-judul{
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.album-owner{
+    color: gray;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.list-album:hover{
+    background-color:rgb(36, 36, 36) ;
+}

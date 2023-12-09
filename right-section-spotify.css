@@ -1,0 +1,99 @@
+.right-section{
+    position: fixed;
+    width: 385px;
+    border-radius: 8px;
+    height: 100%;
+    right: 0;
+    top: 12px;
+    background-color: var(--bgsidebar-right);
+
+}
+
+.header-right-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.button-kiri{
+    margin-left: 12px;
+    padding: 5px 10px;
+    border-radius:15px ;
+    color: white;
+    background-color: black;
+    border: none;
+    font-weight: bold;
+}
+
+.button-kiri:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.button-kanan{
+    margin-right: 12px;
+    padding: 4px 8px;
+    border-radius: 50%;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(149, 148, 148);
+    background-color: black;
+    border: none;
+}
+
+.card-right-album{
+    width: 350px;
+    padding: 15px;
+    margin-top: 5px;
+}
+
+.runner4-img{
+    border-radius: 8px;
+    width: 350px;
+}
+
+.runner4-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.runner4-owner{
+    line-height: 22px;
+}
+
+.runner4-name-song{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4px;
+}
+
+.runner4-name{
+    color: gray;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.runner4-logo{
+    margin-right: 12px;
+    gap: 12px;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.card-right-album2{
+    width: 370px;
+    padding: 10px;
+    position: relative;
+}
+.runner4-img2{
+    width: 370px;
+    height: 215px;
+    object-fit: cover
+}
+
